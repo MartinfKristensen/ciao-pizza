@@ -116,8 +116,10 @@ a {
   background: #fac87d;
 }
 
-.meny-wrap h1 {
+.meny-h1 {
   color: #ff9900;
+  text-align: center;
+  text-decoration: underline 2px;
 }
 
 .card {
@@ -131,6 +133,10 @@ a {
   border-radius: 7px;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 10%), 0 6px 20px 0 rgb(0 0 0 / 9%);
   margin: 20px auto;
+}
+
+.card p {
+  width: 80%;
 }
 
 /* About */
@@ -160,7 +166,9 @@ iframe {
   border-radius: 3px;
   background: #fac87d;
   height: 40vh;
-  border-bottom: #ff9900 solid 1px;
+  border-top: #ff9900 solid 1px;
+  margin-bottom: 20px;
+  color: #ff9900;
 }
 
 .phone p {
@@ -170,4 +178,40 @@ iframe {
 .phone a {
   color: #4f95ff;
   text-decoration: underline;
+}
+
+/* Media queries */
+@media (min-width: 768px) {
+  .hero {
+    height: 94vh;
+  }
+  .truck {
+    width: 1000px;
+    height: 700px;
+  }
+  .truck img {
+    height: 50vh;
+  }
+  .meny-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: auto;
+  }
+
+  .loka-wrap h2 {
+    font-size: 32px;
+  }
+  .lokasjon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  iframe {
+    height: 80vh;
+    width: 90vw;
+    margin: auto;
+  }
 }
