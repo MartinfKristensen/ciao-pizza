@@ -19,11 +19,11 @@ a {
 }
 
 .btn {
-  padding: 7px 40px;
   background: #4f95ff;
   cursor: pointer;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  padding: 7px 40px;
 }
 
 /* Navbar */
@@ -161,13 +161,11 @@ iframe {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 100vw;
-  height: 170px;
+  width: 90vw;
   border-radius: 3px;
-  background: #fac87d;
+  background: #fff;
   height: 40vh;
-  border-top: #ff9900 solid 1px;
-  margin-bottom: 20px;
+  margin: 20px auto;
   color: #ff9900;
 }
 
@@ -213,5 +211,11 @@ iframe {
     height: 80vh;
     width: 90vw;
     margin: auto;
+  }
+  .nav h1 a {
+    font-size: 38px;
+  }
+  .nav li {
+    font-size: 18px;
   }
 }
