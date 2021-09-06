@@ -75,7 +75,14 @@ a {
 }
 
 .hero h1 {
+  margin: 0;
   text-shadow: 0px 2px 15px #000;
+}
+
+.hero p {
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 /* Truck */
@@ -119,7 +126,9 @@ a {
 .meny-h1 {
   color: #ff9900;
   text-align: center;
-  text-decoration: underline 2px;
+  font-size: 36px;
+  margin-top: 50px;
+  margin-bottom: 0;
 }
 
 .card {
@@ -148,7 +157,7 @@ a {
 .loka-wrap h2 {
   margin: 0;
   padding: 10px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 iframe {
@@ -182,6 +191,9 @@ iframe {
 @media (min-width: 768px) {
   .hero {
     height: 94vh;
+  }
+  .hero h1 {
+    font-size: 48px;
   }
   .truck {
     width: 1000px;
