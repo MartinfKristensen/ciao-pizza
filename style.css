@@ -195,6 +195,9 @@ iframe {
   .hero h1 {
     font-size: 48px;
   }
+  .hero p {
+    font-size: 18px;
+  }
   .truck {
     width: 1000px;
     height: 700px;
